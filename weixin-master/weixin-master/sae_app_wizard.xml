@@ -1,0 +1,14 @@
+<appwizard><introduction><name></name><author>微信开发者</author><icon></icon><homepage></homepage><description><![CDATA[微信开发]]></description></introduction><platform><services><service></service><service size="5M">Memcache</service></services><appconfig><tpl><![CDATA[
+name: <<appname>>
+version: <<version>>
+
+libraries:
+- name: webpy
+  version: "0.36"
+
+- name: lxml
+  version: "2.3.4"
+
+- name: pylibmc
+...
+]]></tpl></appconfig></platform><code><initScript>index.php</initScript></code></appwizard>
